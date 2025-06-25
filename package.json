@@ -1,0 +1,29 @@
+{
+  "name": "zoho-prople-attendance",
+  "version": "1.0.0",
+  "description": "a biometric attendence device ",
+  "license": "ISC",
+  "author": "" ,
+  "type": "commonjs",
+  "main": "autoSync.js",
+  "scripts": {
+    "start": "node autoSync.js",
+    "dev": "nodemon autoSync.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.10.1",
+    "axios": "^1.10.0",
+    "express": "^5.1.0",
+    "node-zklib": "^1.3.0",
+    "nodemon": "^3.1.10",
+    "prisma": "^6.10.1"
+  }
+}
+
+
+
+
+
+
+
